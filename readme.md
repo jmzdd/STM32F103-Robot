@@ -1,9 +1,9 @@
 <div align=center> <img src="./readme/logo.png" width = 15%/> </div>
 
-# <p align="center">STM32-Bot</p>
+# <p align="center">STM32F103-Robot</p>
 
-### <p align="center">🎉一个基于STM32F103C8T6的四足爬行机器人🎉</p>
-### <p align="center">🚫项目仅供学习交流🚫</p>
+<p align="center" style="font-size: 24px; font-weight: bold;">🎉一个基于STM32F103C8T6的四足爬行机器人🎉</p>
+<p align="center" style="font-size: 20px; font-weight: bold;">🚫项目仅供学习交流🚫</p>
 
 ## 一、项目介绍
 
@@ -21,7 +21,7 @@
 
 &emsp;&emsp;仓库内包含了本项目所需的所有代码，其中还包括机器人的3D建模文件：
 
-<div style="display: flex; justify-content: center;">
+<div align="center">
   <table>
     <thead>
       <tr>
