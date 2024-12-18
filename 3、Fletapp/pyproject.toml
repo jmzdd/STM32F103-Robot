@@ -1,0 +1,17 @@
+[project]
+
+name = "Robot CMD"
+version = "1.0.0"
+description = "Robot Command App"
+authors = [
+  {name = "jmzdd", email = "developer@codeyi.cc"}
+]
+dependencies = [
+  "flet==0.25.0.dev3526",
+  "paho-mqtt"
+]
+
+[tool.flet.android]
+adaptive_icon_background = "#ffffff" # your color
+
+

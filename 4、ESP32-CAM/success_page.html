@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>提交成功</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; /* 确保body至少占据视口的高度 */
+            margin: 0;
+        }
+
+        .centered-svg {
+            text-align: center;
+        }
+
+        svg, h2{
+            display: block;
+            margin: auto;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 60px; /* ���制按钮与标题之间的间距 */
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: #41b883;
+            color: white;
+            border-radius: 5px;
+        }
+
+        .button:hover {
+            background-color: #2e845e;
+        }
+
+        .button:not(:last-child) {
+            margin-right: 5px;
+            margin-left: 5px;
+        }
+        .info-box {
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            margin-top: 20px;
+            text-align: center;
+        }
+        .info-text {
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="centered-svg">
+        <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 512 512"><path fill="#41b883" d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208s208-93.31 208-208S370.69 48 256 48m108.25 138.29l-134.4 160a16 16 0 0 1-12 5.71h-.27a16 16 0 0 1-11.89-5.3l-57.6-64a16 16 0 1 1 23.78-21.4l45.29 50.32l122.59-145.91a16 16 0 0 1 24.5 20.58"/></svg>
+        <h2>提交成功</h2>
+        <a href="/wifi_info" id="returnButton" class="button">返回修改</a>
+        <a href="/connect_wifi" id="connectionButton" class="button">开始连接</a>
+        <div class="info-box">
+            <p class="info-text">返回修��：点击后返回上一级页���修改wifi信息</p>
+            <p class="info-text">开始���接：点击后将会与手机断开连接并开始连接wifi</p>
+        </div>
+    </div>
+</body>
+</html>

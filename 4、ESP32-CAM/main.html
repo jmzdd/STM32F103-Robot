@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>模式选择</title>
+    <style>
+        .centered-buttons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        .mode1-button {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            background-color: #41b883;
+            color: #ffffff;
+            border: none;
+            cursor: pointer;
+            margin: 10px;
+            font-size: 20px;
+        }
+
+        /* 按钮样式 */
+        .mode2-button {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            background-color: #F58636;
+            color: #ffffff;
+            border: none;
+            cursor: pointer;
+            margin: 10px;
+            font-size: 20px;
+        }
+
+        .zone {
+            margin: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="centered-buttons">
+        <button class="mode1-button" onclick="tocommandPage('command')"><b>��地控制</b></button>
+        <div class=zone></div>
+        <button class="mode2-button" onclick="towifi_infoPage('wifi_info')"><b>AP配网</b></button>
+    </div>
+
+    <script>
+        function tocommandPage(pagePath) {
+            window.location.href = pagePath;
+        }
+        function towifi_infoPage(pagePath) {
+            window.location.href = pagePath;
+        }
+    </script>
+</body>
+</html>

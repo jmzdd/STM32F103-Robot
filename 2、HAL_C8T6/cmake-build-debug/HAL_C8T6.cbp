@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="HAL_C8T6"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/My Projects/HAL_C8T6/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/My Projects/HAL_C8T6/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/My Projects/HAL_C8T6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/My Projects/HAL_C8T6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/My Projects/HAL_C8T6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HAL_C8T6.elf">
+				<Option output="E:/My Projects/HAL_C8T6/cmake-build-debug/HAL_C8T6.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/My Projects/HAL_C8T6/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xB"/>
+					<Add directory="E:/My Projects/HAL_C8T6/Core/Inc"/>
+					<Add directory="E:/My Projects/HAL_C8T6/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="E:/My Projects/HAL_C8T6/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="E:/My Projects/HAL_C8T6/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="E:/My Projects/HAL_C8T6/Drivers/CMSIS/Include"/>
+					<Add directory="E:/My Projects/HAL_C8T6/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="E:/My Projects/HAL_C8T6/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"/>
+					<Add directory="E:/My Projects/HAL_C8T6/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2"/>
+					<Add directory="E:/My Projects/HAL_C8T6/Middlewares/Third_Party/wolfSSL_wolfMQTT_wolfMQTT/wolfmqtt"/>
+					<Add directory="d:\environment\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\environment\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\environment\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\environment\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\environment\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\environment\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/My Projects/HAL_C8T6/cmake-build-debug/Makefile&quot;  VERBOSE=1 HAL_C8T6.elf"/>
+					<CompileFile command="D:/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/My Projects/HAL_C8T6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/My Projects/HAL_C8T6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/My Projects/HAL_C8T6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HAL_C8T6.elf/fast">
+				<Option output="E:/My Projects/HAL_C8T6/cmake-build-debug/HAL_C8T6.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/My Projects/HAL_C8T6/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xB"/>
+					<Add directory="E:/My Projects/HAL_C8T6/Core/Inc"/>
+					<Add directory="E:/My Projects/HAL_C8T6/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="E:/My Projects/HAL_C8T6/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="E:/My Projects/HAL_C8T6/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="E:/My Projects/HAL_C8T6/Drivers/CMSIS/Include"/>
+					<Add directory="E:/My Projects/HAL_C8T6/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="E:/My Projects/HAL_C8T6/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"/>
+					<Add directory="E:/My Projects/HAL_C8T6/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2"/>
+					<Add directory="E:/My Projects/HAL_C8T6/Middlewares/Third_Party/wolfSSL_wolfMQTT_wolfMQTT/wolfmqtt"/>
+					<Add directory="d:\environment\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\environment\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\environment\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\environment\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\environment\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\environment\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/My Projects/HAL_C8T6/cmake-build-debug/Makefile&quot;  VERBOSE=1 HAL_C8T6.elf/fast"/>
+					<CompileFile command="D:/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/My Projects/HAL_C8T6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/My Projects/HAL_C8T6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/My Projects/HAL_C8T6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/My Projects/HAL_C8T6/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/My Projects/HAL_C8T6/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/My Projects/HAL_C8T6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/My Projects/HAL_C8T6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/My Projects/HAL_C8T6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/My Projects/HAL_C8T6/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/My Projects/HAL_C8T6/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/My Projects/HAL_C8T6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/My Projects/HAL_C8T6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/My Projects/HAL_C8T6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/My Projects/HAL_C8T6/Core/Inc/FreeRTOSConfig.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Core/Inc/PCA9685.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Core/Inc/gpio.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Core/Inc/i2c.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Core/Inc/main.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Core/Inc/ssd1306.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Core/Inc/ssd1306_font.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Core/Inc/stm32f1xx_hal_conf.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Core/Inc/stm32f1xx_it.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Core/Inc/usart.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Core/Src/PCA9685.c">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Core/Src/freertos.c">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Core/Src/gpio.c">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Core/Src/i2c.c">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Core/Src/main.c">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Core/Src/ssd1306.c">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Core/Src/ssd1306_font.c">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Core/Src/stm32f1xx_hal_msp.c">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Core/Src/stm32f1xx_hal_timebase_tim.c">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Core/Src/stm32f1xx_it.c">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Core/Src/syscalls.c">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Core/Src/sysmem.c">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Core/Src/system_stm32f1xx.c">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Core/Src/usart.c">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Core/Startup/startup_stm32f103c8tx.s">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/CMSIS/Device/ST/STM32F1xx/LICENSE.txt">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/CMSIS/LICENSE.txt">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_cortex.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_exti.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_i2c.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_pwr.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_system.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_utils.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/STM32F1xx_HAL_Driver/LICENSE.txt">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Middlewares/Third_Party/FreeRTOS/Source/croutine.c">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Middlewares/Third_Party/FreeRTOS/Source/include/StackMacros.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Middlewares/Third_Party/FreeRTOS/Source/include/list.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Middlewares/Third_Party/FreeRTOS/Source/include/message_buffer.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_prototypes.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Middlewares/Third_Party/FreeRTOS/Source/include/task.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Middlewares/Third_Party/FreeRTOS/Source/list.c">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Middlewares/Third_Party/FreeRTOS/Source/queue.c">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Middlewares/Third_Party/FreeRTOS/Source/tasks.c">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/Middlewares/Third_Party/FreeRTOS/Source/timers.c">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/STM32F103C8TX_FLASH.ld">
+			<Option target="HAL_C8T6.elf"/>
+		</Unit>
+		<Unit filename="E:/My Projects/HAL_C8T6/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
