@@ -228,13 +228,7 @@
 
 <p align="center" style="font-size: 15px; font-weight: bold;">👇项目演示👇</p>
 
-<div style="text-align: center;">
-  <video width="800" controls>
-    <source src="./readme/演示视频-字幕版.mp4" type="video/mp4">
-    您的浏览器不支持HTML5视频标签。
-  </video>
-</div>
-
+https://github.com/user-attachments/assets/f1a0bd48-f576-4248-8a84-5862ebdc9574
 
 ## 六、参考资料
 
