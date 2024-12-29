@@ -68,7 +68,7 @@ def create_containment_page(page, nav_bar_height):
             style=ft.ButtonStyle(color={"selected": ft.colors.RED, "": ft.colors.GREEN}),
             key=key,
         )
-
+     # 这里的"ft.WebView"当中的网址应替换为自己的视频回传地址，图像流以网页的形式展示在网页上，在APP上以Webview控件的形式引入
     return ft.Column(
         spacing=5,
         controls=[
